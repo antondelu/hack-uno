@@ -1,0 +1,150 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#f2f6fc;
+}
+
+.title-home h3{
+    width: 40%;
+    font-weight: 600;
+
+}
+.button-home{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.text-home{
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    color: #0061f2;
+}
+
+.portada-home{
+    margin-top: 5rem;
+}
+.portada-home-text{
+    margin-top: 50px;
+}
+.img-tuerca{
+    width: 30px;
+    margin-left: 95%;
+    position: fixed;
+}
+.content-cards{
+    background-color: #f2f6fc;
+    width: 100%;
+    cursor: pointer;
+}
+.content-cards::after{
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    position: absolute;
+    bottom: 0; 
+    content: "";
+    height: 70px;
+    width: 100%;
+}
+.content-cards-burbuja{
+    width: 130px;
+    background-color: #DAE7FB;
+    border-radius: 50rem;
+    margin-left: 44%;
+    margin-top: 7rem;
+    margin-bottom: 10px;
+
+}
+.content-cards-info{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: gray;
+    text-align: center;
+}
+.content-cards-burbuja p {
+    text-align: center;
+    color: #316CF2;
+    
+}
+
+.content-cards h3{
+    text-align: center;
+}
+.content-cards h5{
+    text-align: center;
+    font-size: 15px;
+}
+.content-cards h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.tablas{
+    margin-bottom: 2%;
+}
+.tablas-title h3{
+    text-align: center;
+
+}
+.list-group{
+    margin-top: 20px;
+}
+
+.documentation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.documentation p{
+    text-align: center;
+    width: 80%;
+    margin: 0 100px 0 50px;
+}
+.documentation-number{
+    color: #c5ccd6  ;
+    font-size: 5rem;
+    font-weight: 700
+}
+.documentation-div-button{
+    margin-top: 3rem;
+}
+.documentation-button{
+    width: auto;
+    justify-content: center;
+}
+
+.footer{
+    margin: 10% 0 5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cpyright{
+    display: flex;
+    justify-content: space-between;
+    color: #bdc3c7;
+}
+hr{
+    width: 60%;
+    margin-left: 20%;
+}
+h6{
+    color: #bdc3c7; 
+    font-weight: 600;
+}
+.footer a{
+    text-decoration: none;
+    color: #bdc3c7;
+    font-weight: 400;
+    
+}
